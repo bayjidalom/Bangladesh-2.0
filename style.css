@@ -8,6 +8,10 @@
     font-family: "Fira Sans", sans-serif;
 }
 
+.cursor{
+    cursor: pointer;
+}
+
 
 /* Navbar Related styles */
 
