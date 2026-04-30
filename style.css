@@ -40,6 +40,7 @@ header .navbar {
     padding: 24px 0;
     align-items: center;
     margin: 0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
 }
 
 .navbar h2 {
@@ -534,3 +535,28 @@ main {
 
 
 
+footer {
+    background-color: #fff;
+    padding: 50px 0 50px 0;
+    /* padding-top: 50px; */
+    text-align: center;
+}
+
+footer .footer-container {
+    max-width: 222px;
+    /* background-color: bisque; */
+    margin: 0 auto;
+
+}
+
+footer h2 {
+    font-size: 32px;
+    color: #0E0E0E;
+    margin-bottom: 64px;
+}
+
+footer .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
