@@ -8,16 +8,17 @@
     font-family: "Fira Sans", sans-serif;
 }
 
-.cursor{
+.cursor {
     cursor: pointer;
 }
 
 
 /* Navbar Related styles */
-header{
+header {
     background-color: #F1F1F3;
     padding-bottom: 80px;
 }
+
 header .navbar {
     display: flex;
     max-width: 1280px;
@@ -59,8 +60,8 @@ header .banner-container {
     padding: 80px 60px;
     border: none;
     border-radius: 24px;
-     
-    
+
+
 }
 
 .banner-container .banner-content {
@@ -98,33 +99,33 @@ header .banner-container {
 
 
 
-main{
+main {
     background-color: #F1F1F3;
 }
 
 /* Pillers Section related Styles (card) */
 
-.piller-section{
-     padding-bottom: 80px;
+.piller-section {
+    padding-bottom: 80px;
     max-width: 1280px;
     margin: 0 auto;
     /* background-color: aquamarine; */
 }
 
-.piller-section .piller-heading{
+.piller-section .piller-heading {
     font-size: 40px;
     font-weight: 600;
     margin-bottom: 32px;
     color: #0E0E0E;
 }
 
-.piller-card-container{
+.piller-card-container {
     display: flex;
     justify-content: center;
-    gap:24px ;
+    gap: 24px;
 }
 
-.piller-card-container .piller-card{
+.piller-card-container .piller-card {
     max-width: 302px;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -134,19 +135,117 @@ main{
 }
 
 
-.piller-card img{
+.piller-card img {
     max-width: 64px;
     margin-bottom: 16px;
 }
-.piller-card h3{
+
+.piller-card h3 {
     font-size: 20px;
     font-weight: 700;
     margin-bottom: 16px;
 
 }
 
-.piller-card p{
+.piller-card p {
     font-size: 16px;
     line-height: 24px;
     color: rgba(14, 14, 14, 0.7);
+}
+
+
+
+/* Vision Future section related */
+
+.vision-div {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.vision-div .vision-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    color: #0E0E0E;
+}
+
+.vision-div p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+
+
+.vision-card-container {
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 24px;
+    margin-bottom: 32px;
+
+}
+
+.vision-card {
+    max-width: 410px;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    padding: 32px;
+
+}
+
+.vision-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+
+.vision-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.vision-card button {
+    padding: 11px 20px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    /* background-color: #006A50; */
+}
+
+.vision-card img {
+    max-width: 62px;
+    margin-bottom: 16px;
+}
+
+.card1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.btn1 {
+    background-color: #5490F5;
+}
+
+.card2 {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.btn2 {
+    background-color: #09A15C;
+}
+
+.card3 {
+    background-color: #F7EBCF;
+}
+
+.btn3 {
+    background-color: #FFC239;
 }
