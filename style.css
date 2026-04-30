@@ -428,7 +428,7 @@ main {
 .donate-card {
     max-width: 240px;
     padding: 40px;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.384);
     border-radius: 10px;
     margin-bottom: 17px;
     background-color: #fff;
@@ -462,3 +462,75 @@ main {
     border-radius: 6px;
     margin-bottom: 16px;
 }
+
+
+
+/* Subscribe section related styles */
+
+
+.subscribe-section {
+    padding-bottom: 80px;
+}
+
+.subscribe-main-container {
+    max-width: 1280px;
+    /* border: 2px solid blue; */
+    border-radius: 24px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #C6E4D6;
+    margin: 0 auto;
+}
+
+.subscribe-content {
+    max-width: 750px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+.subs-heading {
+    text-align: center;
+}
+
+.subs-heading h2 {
+    font-size: 40px;
+    color: #0E0E0E;
+    margin-bottom: 16px;
+}
+
+.subs-heading p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.input--btn {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 16px;
+    max-width: 750px;
+}
+
+.input--btn input {
+    min-width: 550px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    padding-left: 40px;
+    font-size: 17px;
+}
+
+.subs-btn {
+    border-radius: 0 8px 8px 0;
+}
+
+.message {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+
