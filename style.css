@@ -12,6 +12,17 @@
     cursor: pointer;
 }
 
+.primary-btn{
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #006A50;
+
+}
+
 
 /* Navbar Related styles */
 header {
@@ -249,3 +260,69 @@ main {
 .btn3 {
     background-color: #FFC239;
 }
+
+
+
+
+/* Recent News Section */
+
+.news-card-container{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+
+.news-card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffff;
+    gap: 32px;
+    align-items: center;
+    padding: 48px;
+    border: none;
+    border-radius: 24px;
+    margin-bottom: 24px;
+} 
+
+.news-card-left img{
+    max-width: 408px;
+    border: none;
+    border-radius: 24px;
+}
+
+.news-card-right{
+    max-width: 744px;
+}
+
+
+.news-card h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+
+.news-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+.news-card-right .span{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+.news-card-right img{
+    max-width: 134px;
+    margin-bottom: 15px;
+
+}
+
+.news-card-two{
+    flex-direction: row-reverse;
+}
+
+
