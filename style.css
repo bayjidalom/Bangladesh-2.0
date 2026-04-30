@@ -55,7 +55,14 @@ header .navbar {
     color: #006A50;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ffff;
+    background-color: #F1F1F3;
+}
+
+
+.nav-btn:hover {
+    box-shadow: 1px 1px 3px 1px rgba(128, 128, 128, 0.384);
+    background-color: #09a15d1c;
+
 }
 
 
@@ -388,4 +395,70 @@ main {
     left: 5px;
     top: 14px;
     z-index: 0;
+}
+
+
+
+/* Donate section related styles */
+
+.donate-section {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.donate-main-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+
+}
+
+
+.donate-card-container {
+    max-width: 1071px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.donate-card {
+    max-width: 240px;
+    padding: 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 17px;
+    background-color: #fff;
+
+}
+
+.donate-card h2 {
+    font-size: 40px;
+    color: #0E0E0E;
+}
+
+
+.donate-heading {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+
+.donate-description {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.input {
+    width: 900px;
+    text-align: center;
+    height: 39px;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    border-radius: 6px;
+    margin-bottom: 16px;
 }
